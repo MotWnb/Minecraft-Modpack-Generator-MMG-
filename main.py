@@ -12,7 +12,7 @@ class ModpackGenerator(wx.Frame):
         super().__init__(None)
 
          # Set window title, size and icon
-        self.SetTitle("Modpack Generator")
+        self.SetTitle("Minecraft Modpack Generator")
         self.SetIcon(wx.Icon('icon.ico', wx.BITMAP_TYPE_ICO))
         self.SetSize((900, 450))
         self.SetMinSize((900, 450))
